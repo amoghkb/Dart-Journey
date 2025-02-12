@@ -1,5 +1,5 @@
 void main() {
-  // var: The type is inferred by Dart based on the assigned value.
+  /// var: The type is inferred by Dart based on the assigned value.
   var name = "Alice";  // name is inferred to be a String.
   print("Name (var): $name");
 
@@ -7,14 +7,14 @@ void main() {
   name = "Bob";  // Valid, as it's still a String.
   print("Updated Name (var): $name");
 
-  // const: A constant value that is known at compile-time and cannot change.
+  /// const: A constant value that is known at compile-time and cannot change.
   const pi = 3.14;  // The value of pi is fixed at compile time.
   print("PI (const): $pi");
 
   // const values are deeply immutable and are evaluated at compile time.
   // You cannot change `pi` after initialization, or it will throw an error.
 
-  // dynamic: The type can change at runtime.
+  /// dynamic: The type can change at runtime.
   dynamic age = 25;  // Initially an integer.
   print("Age (dynamic): $age");
 
@@ -22,12 +22,30 @@ void main() {
   age = "Twenty-five";  // Now it's a String.
   print("Updated Age (dynamic): $age");
 
-  // final: The value is assigned once and cannot be changed afterward.
+  /// final: The value is assigned once and cannot be changed afterward.
   final String country = "USA";  // Country is final and can be assigned only once.
   print("Country (final): $country");
 
   // final is also used when you want the variable to be set at runtime but not changed later.
   // country = "Canada";  // This would throw an error, as `final` makes the value immutable.
+
+  ///late
+  //if you have a variable that you need to declare with out the values use late
+  //helps to declare the variable without assigning the values for them
+
+  int a=33;
+  String personalName="Amogh";
+
+  //with late
+
+  late int b;
+  late String anyName;
+  //print(b)-> gives me an error since it is a late with out assigned a value;
+
+
+
+
+
 }
 
 
