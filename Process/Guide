@@ -1,0 +1,167 @@
+Basic Concepts
+Dart Syntax
+
+Understanding basic syntax and structure of Dart programs.
+Variables and Data Types
+
+Declaring variables, types: int, double, String, bool, dynamic.
+Constants
+
+const, final, and late keywords, understanding immutability.
+Operators
+
+Arithmetic, relational, logical, and assignment operators.
+Control Flow
+
+if, else, switch, ternary operator, and conditional expressions.
+Functions
+
+Defining functions, return types, parameters (positional, named), function expressions, and arrow functions.
+Loops
+
+for, while, do-while loops, and forEach for collections.
+Lists
+
+Creating and manipulating lists (adding, removing, iterating).
+Sets
+
+Defining and manipulating sets (adding, removing, iterating).
+Maps
+
+Key-value pairs, iterating, adding/removing items from maps.
+Exception Handling
+
+try, catch, throw, custom exceptions.
+Null Safety
+
+nullable types, null-aware operators (?., ??, !).
+Intermediate Concepts
+Classes and Objects
+
+Defining classes, creating objects, constructors, instance variables, methods.
+Getters and Setters
+
+Defining getters and setters to access private fields.
+Inheritance
+
+Subclasses, super keyword, method overriding.
+Polymorphism
+
+Method overriding, dynamic dispatch, and runtime polymorphism.
+Static Members
+
+Static variables and methods in classes.
+Named Constructors
+
+Using named constructors to create objects in different ways.
+Optional Parameters
+
+Positional and named parameters, default values for parameters.
+Function Types
+
+Declaring function signatures and passing functions as parameters.
+Async Programming
+
+Future, async/await, handling asynchronous operations.
+Streams
+
+Creating and listening to streams, stream transformations.
+Mixins
+
+Reusing code in multiple classes without inheritance.
+Collections (Advanced)
+
+Working with more complex collections (nested collections, iterables).
+Dart Libraries
+
+Using core libraries and importing third-party libraries.
+Advanced Concepts
+Abstract Classes
+
+Defining abstract classes and their use in object-oriented design.
+Interfaces
+
+Implementing interfaces in Dart.
+Extension Methods
+
+Extending functionality of existing classes and types.
+Generics
+
+Using generics to create reusable classes and methods.
+Error Handling (Advanced)
+
+Custom error classes, advanced exception handling patterns.
+Concurrency
+
+Isolates and parallel programming, understanding asynchronous concurrency.
+Reflection
+
+Using the dart:mirrors library (note: less commonly used in Flutter due to performance issues).
+Packages and Libraries
+
+Creating and publishing custom Dart packages, managing dependencies.
+Unit Testing
+
+Writing and running tests in Dart using the test package.
+Memory Management
+
+Understanding Dart's garbage collection and heap/stack management.
+Dart VM & Compilation
+
+How Dart code is compiled and executed in different environments (JIT vs AOT compilation).
+
+
+
+
+
+
+
+------------------------------------------------------------------
+
+Abstraction
+Async Programming (Future, Stream, async/await)
+Collections (List, Set, Map, Iterable)
+Classes (Class definition, constructors, getters, setters, etc.)
+Conditional Statements (if, else, switch, ternary operator)
+Data Types (int, double, String, bool, dynamic)
+Error Handling (Try, Catch, Throw, Exception)
+Exception Handling (Custom exceptions)
+Function (Parameters, return types, arrow functions, etc.)
+Generators (Synchronous and asynchronous generators)
+Getters & Setters
+Inheritance (Single and multiple inheritance, super keyword)
+Is and As Operators (Type-checking)
+Iterables (for, while loops, collections)
+Libraries (Importing libraries, package management)
+List (Defining, manipulating lists)
+Maps (Key-value pairs)
+Mixins (Multiple inheritance in Dart)
+Null Safety (Null-aware operators, late, required)
+Operators (Arithmetic, relational, logical, cascade, etc.)
+Optional Parameters (Positional and named parameters)
+Part and Part of (Splitting code into multiple files)
+Polymorphism (Method overriding and dynamic dispatch)
+Recursion
+Set (Defining, manipulating sets)
+Static Members (Static variables, methods, and classes)
+Streams (Streams, StreamController, stream transformations)
+Syntax (Dart syntax and conventions)
+Ternary Operator
+Type Inference
+Type System (Dynamic, Future, Stream, void, etc.)
+Variables (Declaring variables, const, final, var, late)
+Values and Constants (Const, final)
+Weakly Typed Language (How Dart handles dynamic typing)
+Asynchronous Programming (Futures, async/await, Streams)
+Lambda Expressions (Anonymous functions)
+Constructors (Named, default, and factory constructors)
+Extension Methods (Adding functionality to existing types)
+Interfaces (Defining and implementing interfaces)
+Dart VM and Compilation (How Dart is executed)
+Unit Testing (Writing unit tests in Dart)
+Object-Oriented Concepts (Encapsulation, inheritance, polymorphism)
+Memory Management (Heap, stack, and garbage collection)
+Function Types (Declaring function signatures)
+Concurrency (Future, async, isolates, and multi-threading)
+Libraries and Packages (Using third-party libraries, package manager)
+Dart and Flutter Integration (How Dart works with Flutter)
