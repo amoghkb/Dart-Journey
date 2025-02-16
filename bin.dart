@@ -1,5 +1,10 @@
 void main(){
 
-  int a=34;
+  print(NameCatcher(lastName: "amogh"));
+}
+
+
+String NameCatcher({String? firstName,String? lastName}){
+  return"${firstName??""}${lastName??""}";
 
 }
