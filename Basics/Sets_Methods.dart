@@ -1,4 +1,7 @@
 void main() {
+
+
+  //it dont allow any duplicates
   // 1. Creating a Set
   Set<int> set1 = {1, 2, 3}; // Using a set literal
   Set<int> set2 = Set(); // Creating an empty set
@@ -55,6 +58,8 @@ void main() {
   // 9. Nullable Sets and Null Safety
   Set<int>? nullableSet;
   print('Nullable Set is null: ${nullableSet == null}'); // Output: true
+
+
 
   nullableSet = {1, 2};
   print('Nullable Set after assignment: $nullableSet'); // Output: {1, 2}
